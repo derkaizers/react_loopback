@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "kaskusbilitos": {
+    "host": "ds153845.mlab.com",
+    "port": 53845,
+    "url": "mongodb://derkaizers:12345@ds153845.mlab.com:53845/kaskusbilitos",
+    "database": "kaskusbilitos",
+    "password": "12345",
+    "name": "kaskusbilitos",
+    "user": "derkaizers",
+    "connector": "mongodb"
+  }
+}

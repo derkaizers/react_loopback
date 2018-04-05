@@ -1,0 +1,30 @@
+{
+  "name": "player",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Ages": {
+      "type": "number",
+      "required": true
+    },
+    "HandiCaps": {
+      "type": "number",
+      "required": true
+    },
+    "Location": {
+      "type": "string",
+      "default": "Jakarta"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
